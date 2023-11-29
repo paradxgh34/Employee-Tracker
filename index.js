@@ -1,5 +1,5 @@
 // importing package files - 
-const inquirer = require("inquirer");
+const inquirrer = require("inquirer");
 const mysql = require("mysql2/promise");
 
 // Encryption for env file - See.env
@@ -20,7 +20,7 @@ async function dbConnection(select) {
         database: dbName,
       });
 
-    // empty var's for query returns and prompt responses
+    // empty var's for query returns and prompt response
     let returnedRowsFromDb = [];
     let returnedOutputFromInq = [];
 
