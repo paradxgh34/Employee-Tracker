@@ -28,6 +28,7 @@ async function dbConnection(select) {
         switch (select) {
             // id, name
             case "View All Departments":
+                returnedRowsFromDb = await db.query("SELECT * FROM department");
             
               break;
       
