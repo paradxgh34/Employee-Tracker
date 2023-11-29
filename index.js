@@ -32,4 +32,4 @@ async function dbConnection(select) {
                 console.table(returnedRowsFromDb[0]); // needs to be part of array?
             
               break;
-      
+      // employee id, first,last, job title, Dept., $$$, and Boss
