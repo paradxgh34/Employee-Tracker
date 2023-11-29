@@ -19,3 +19,7 @@ async function dbConnection(select) {
         password: dbPassword,
         database: dbName,
       });
+
+    // empty variables for query returns and prompt responses
+    let returnedRowsFromDb = [];
+    let returnedOutputFromInq = [];
