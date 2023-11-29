@@ -20,3 +20,19 @@ VALUES  ("Engineering Technical Director", 120000, 1),
         ("Sales VP", 65000, 4),
         ("Production Manager", 110000, 5),
         ("Production Director", 95000, 5);
+
+
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES  ("Chris", "Samson",  1, NULL),
+        ("Jonas", "Samson",  2, 1),
+        ("Jekly", "Hyde",  3, 1), 
+        ("Hashbrwon", "fries",  4, NULL), 
+        ("joseph", "Raemy",  5, 4),
+        ("Timothy", "Gent",  6, NULL), 
+        ("Paul", "Steveson",  7, 6), 
+        ("Lord", "Sue",  8, 6), 
+        ("Jinny", "Hicks",  9, NULL), 
+        ("Phelpe", "rufir",  10, 9), 
+        ("Vance", "Hefler",  11, NULL), 
+        ("Bir", "Fu",  12, 11);
