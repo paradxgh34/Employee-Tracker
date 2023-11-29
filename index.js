@@ -20,7 +20,7 @@ async function dbConnection(select) {
         database: dbName,
       });
 
-    // empty variables for query returns and prompt responses
+    // empty var's for query returns and prompt responses
     let returnedRowsFromDb = [];
     let returnedOutputFromInq = [];
 
