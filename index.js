@@ -29,6 +29,7 @@ async function dbConnection(select) {
             // id, name
             case "View All Departments":
                 returnedRowsFromDb = await db.query("SELECT * FROM department");
+                console.table(returnedRowsFromDb[0]); // needs to be part of array?
             
               break;
       
