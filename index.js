@@ -1,8 +1,8 @@
-// importing package files (console.table no longer required)
+// importing package files - 
 const inquirer = require("inquirer");
 const mysql = require("mysql2/promise");
 
-// Encryption for env file
+// Encryption for env file - See.env
 require("dotenv").config();
 
 
