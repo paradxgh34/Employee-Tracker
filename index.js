@@ -23,3 +23,11 @@ async function dbConnection(select) {
     // empty variables for query returns and prompt responses
     let returnedRowsFromDb = [];
     let returnedOutputFromInq = [];
+
+        // switch for all user input cases
+        switch (select) {
+            // id, name
+            case "View All Departments":
+            
+              break;
+      
