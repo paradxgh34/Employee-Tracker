@@ -33,6 +33,6 @@ VALUES  ("Chris", "Samson",  1, NULL),
         ("Paul", "Steveson",  7, 6), 
         ("Lord", "Sue",  8, 6), 
         ("Jinny", "Hicks",  9, NULL), 
-        ("Phelpe", "rufir",  10, 9), 
+        ("Phelpe", "ruffner",  10, 9), 
         ("Vance", "Hefler",  11, NULL), 
         ("Bir", "Fu",  12, 11);
